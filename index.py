@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import streamlit as st
 import os
 import sqlite3
@@ -6,7 +6,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
 # Configure Gemini AI key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
